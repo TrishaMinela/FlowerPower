@@ -1,25 +1,30 @@
-This is a personal portfolio website of Trisha Minela, showcasing her projects, experience, and blog posts.
+FlowerPower
+Overview
+This Java program, called FlowerPower, is a simple game implemented using Java Swing. In this game, the player interacts with a garden by solving math problems to grow flowers and avoiding weeds. The game provides a user-friendly interface where the player's name and score are displayed, and the player can choose to play again or exit the game.
 
-Table of Contents
-- [About](#about)
-- [Experience](#experience)
-- [Projects](#projects)
-- [Blog](#blog)
-- [Contact](#contact)
+Key Features
+Interactive Garden: The game provides a virtual garden environment where the player can grow flowers and avoid weeds.
 
-About
-The 'About' section provides an overview of Trisha Minela, including her background, education, and skills.
+Math Problem Solving: To grow flowers, the player needs to solve math problems correctly. Incorrect answers may lead to the growth of weeds.
 
-Experience
-In the 'Experience' section, Trisha lists her programming languages and skills.
+Scoring System: The player's score increases when they grow flowers and decreases when weeds are grown.
 
-Projects
-The 'Projects' section displays Trisha's recent projects along with links to their GitHub repositories and live demos.
+Game Over Mechanism: The game ends when the garden is full or when the player chooses to exit. Upon game over, the player can choose to play again.
 
-Blog
-The 'Blog' section features Trisha's blog posts, with excerpts and links to read more.
+How to Play
+Enter Your Name: When the game starts, the player is prompted to enter their name.
 
-Contact
-To get in touch with Trisha, visit the 'Contact' section, where her email and LinkedIn profile are provided.
+Solve Math Problems: Math problems are displayed, and the player must input the correct answer using the keyboard.
 
+Grow Flowers, Avoid Weeds: Correct answers lead to the growth of flowers, while incorrect answers lead to the growth of weeds. The player's score is updated accordingly.
 
+Game Over: The game ends when the garden is full. The player can choose to play again or exit.
+
+How It Works
+The FlowerPower class extends JPanel and implements the KeyListener interface to handle user input.
+
+The garden is represented by the Garden class, and the math problems are managed by the MathProblem class.
+
+The game state is tracked to control the flow of the game, such as displaying math problems, updating the garden, and handling game over scenarios.
+
+User input is processed to determine whether to grow flowers or weeds, update the score, and handle game over conditions.
